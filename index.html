@@ -424,16 +424,26 @@
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
-<meting-js
-  server="netease"
-  type="playlist"
-  id="你的歌单ID"
-  fixed="true"
-  autoplay="false"
-  order="random">
-</meting-js>
+<div id="aplayer"></div>
+
+<script>
+  const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,        // 开启吸底模式
+    autoplay: false,    // 自动播放（大部分浏览器会拦截，设为false比较稳）
+    audio: [
+      {
+        name: 'Creep',
+        artist: 'Radiohead',
+        // 这里填你图床上传的mp3链接
+        url: 'https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store@main/Radiohead - Creep.mp3',
+        cover: 'https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/creep-cover.jpg'
+      }
+    ]
+  });
+</script>
+
 
     </div>
   </footer>

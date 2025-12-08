@@ -174,7 +174,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -340,6 +340,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/" rel="next" title="“灵异页面测试”">
+                  “灵异页面测试” <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -438,5 +441,31 @@ document.addEventListener('page:loaded', () => {
 });
 </script>
 
-</body>
+<!-- hexo injector body_end start -->
+  <script>
+  (function() {
+    // 1. 定义触发条件
+    var targetCategory = '灵异现象研究';
+    var targetPath = 'mystery';
+    
+    // 2. 检测逻辑
+    function checkMystery() {
+      // 检查URL
+      if (location.pathname.indexOf(targetPath) !== -1) return true;
+      
+      // 检查分类
+      var cats = document.querySelectorAll('.post-category a, .post-meta-item-category a');
+      for (var i = 0; i < cats.length; i++) {
+        if (cats[i].innerText.trim() === targetCategory) return true;
+      }
+      return false;
+    }
+
+    // 3. 只加类名，不改结构！安全！
+    if (checkMystery()) {
+      document.body.classList.add('mystery-mode'); 
+    }
+  })();
+  </script>
+  <!-- hexo injector body_end end --></body>
 </html>

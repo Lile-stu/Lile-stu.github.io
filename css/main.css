@@ -1416,7 +1416,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #8efac1;
+    background: #019f88;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3052,5 +3052,77 @@ header.header {
   }
   .comments {
     padding: 10px 12px;
+  }
+}
+/* --- 1. 灵异模式基础设定 --- */
+body.mystery-mode {
+  background: #050505 !important; /* 接近纯黑 */
+  color: #ccc;
+  transition: background 1s ease; /* 变色要慢慢来，才吓人 */
+}
+/* --- 2. 修复：找回消失的统计和页脚 --- */
+body.mystery-mode .footer {
+  color: #888 !important; /* 强制浅灰色 */
+}
+body.mystery-mode .footer a {
+  color: #aaa !important; /* 链接更亮一点 */
+}
+/* 如果你的统计有图标，也得变色 */
+body.mystery-mode .fa {
+  color: #aaa !important;
+}
+/* --- 3. 进阶版 Banner：虚空凝视 --- */
+body.mystery-mode .main-inner::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 280px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+/* 眼睛素材 */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 100 100'%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='80'%3E👁️%3C/text%3E%3C/svg%3E");
+  background-color: #000;
+/* 初始状态 */
+  background-size: 60px 60px;
+  filter: contrast(120%) brightness(0.6);
+/* 加上暗角，让四周完全黑暗 */
+  mask-image: radial-gradient(circle, #000 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, #000 40%, transparent 100%);
+/* 动画：改为呼吸效果 */
+  animation: breathe 4s ease-in-out infinite alternate;
+}
+/* --- 4. 动画定义：呼吸与凝视 --- */
+/* 鼠标放上去时：眼睛突然狂暴（可选） */
+body.mystery-mode .main-inner::before:hover {
+  animation: panic 0.2s linear infinite;
+  filter: contrast(200%) brightness(1.5) sepia(100%) saturate(500%) hue-rotate(-50deg); /* 血红模式 */
+}
+@keyframes breathe {
+  0% {
+/* 呼气：眼睛变小，变暗 */
+    background-size: 60px 60px;
+    filter: contrast(120%) brightness(0.5) hue-rotate(0deg);
+  }
+  100% {
+/* 吸气：瞳孔放大，变亮，颜色微偏红 */
+    background-size: 68px 68px; /* 微微放大，制造压迫感 */
+    filter: contrast(150%) brightness(0.9) hue-rotate(-10deg);
+  }
+}
+@keyframes panic {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(2px, 2px);
+  }
+  50% {
+    transform: translate(-2px, -2px);
+  }
+  75% {
+    transform: translate(-2px, 2px);
+  }
+  100% {
+    transform: translate(2px, -2px);
   }
 }

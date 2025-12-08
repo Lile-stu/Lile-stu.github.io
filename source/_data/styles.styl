@@ -1,0 +1,108 @@
+// ==================================================
+// 1. 全局字体设置 (Libre Franklin + Noto Sans SC)
+// ==================================================
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+$my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Microsoft YaHei", sans-serif
+
+// 应用到全站标题 (普通模式下生效)
+.site-title, .post-title, .post-title-link, h1, h2, h3, h4, h5, h6
+  font-family: $my-modern-stack !important
+  font-weight: 400
+  letter-spacing: 0.02em
+
+
+// ==================================================
+// 2. 灵异模式专属样式 (SCP文档风格 / 黑底白字)
+// ==================================================
+.mystery-mode
+  background-color #000000 !important
+  color #eeeeee !important 
+
+  // 强制全黑背景
+  .header-inner, .main-inner, .content-wrap, .post-block, .comments, .footer, .main-menu, .sidebar-inner
+    background-color #000000 !important
+  
+  // 标题：强制改回打印机字体，覆盖掉上面的全局字体
+  .post-title, .post-title-link, .site-title, h1, h2, h3, h4, h5, h6
+    color #ffffff !important 
+    font-family 'Courier New', monospace !important // ★ 关键：这里反杀全局字体
+    text-shadow none
+
+  // 链接和正文
+  a, .post-body a
+    color #ffffff !important
+    border-bottom-color #ffffff !important
+    &:hover
+      color #cccccc !important
+  
+  blockquote
+    border-left-color #ffffff
+    color #cccccc
+
+
+// ==================================================
+// 3. 灵异 Banner 容器
+// ==================================================
+.paranormal-banner-global
+  position relative
+  width 100%
+  height 220px
+  background #000
+  overflow hidden
+  border-bottom 1px solid #333
+  margin-bottom 40px
+  perspective 1000px
+
+
+// ==================================================
+// 4. 梦核眼睛图片：常态 (原色、漂浮、模糊)
+// ==================================================
+.mystery-eye-icon
+  position absolute
+  top var(--top)
+  left var(--left)
+  // 基准宽度 40px，乘以随机倍率
+  width calc(40px * var(--sz))
+  height auto
+  opacity var(--op)
+  
+  // 梦核感核心：模糊 + 阴影
+  filter blur(0.8px) drop-shadow(0 5px 5px rgba(0, 0, 0, 0.5))
+  
+  // 漂浮动画
+  animation dream-float var(--dur) ease-in-out infinite alternate var(--delay)
+  
+  // 混合模式
+  mix-blend-mode lighten
+
+@keyframes dream-float
+  0%
+    transform rotate(var(--rot)) translateY(0) translateZ(0)
+  100%
+    transform rotate(var(--rot)) translateY(-20px) translateZ(50px)
+
+
+// ==================================================
+// 5. 噩梦降临：鼠标悬停交互 (变红、暴走)
+// ==================================================
+.paranormal-banner-global:hover 
+  background #050000
+  border-bottom-color #ff0000 // 底部变红线
+  
+  .mystery-eye-icon
+    opacity 1 !important
+    mix-blend-mode normal
+    
+    // 强制变红滤镜组合拳
+    filter sepia(1) saturate(10) hue-rotate(-50deg) contrast(1.5) drop-shadow(0 0 10px #f00) !important
+    
+    // 切换到剧烈抽搐动画
+    animation nightmare-shake 0.2s infinite linear
+
+@keyframes nightmare-shake
+  0% { transform: rotate(var(--rot)) scale(1) translate(0, 0); }
+  25% { transform: rotate(calc(var(--rot) + 5deg)) scale(1.1) translate(3px, 3px); }
+  50% { transform: rotate(calc(var(--rot) - 5deg)) scale(0.9) translate(-3px, 1px); }
+  75% { transform: rotate(var(--rot)) scale(1.05) translate(1px, -3px); }
+  100% { transform: rotate(var(--rot)) scale(1) translate(0, 0); }

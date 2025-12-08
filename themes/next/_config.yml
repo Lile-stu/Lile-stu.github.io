@@ -25,11 +25,11 @@ custom_file_path:
   #postMeta: source/_data/post-meta.njk
   #postBodyStart: source/_data/post-body-start.njk
   #postBodyEnd: source/_data/post-body-end.njk
-  #footer: source/_data/footer.njk
+  footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -102,10 +102,10 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  #home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -149,7 +149,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://github.com/Lile-stu.png
+  url: https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/avatar1.jpg
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -163,8 +163,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://lile-stu.xyz/ || fab fa-github
-  #E-Mail: mailto:lile.stu@qq.com || fa fa-envelope
+  GitHub: https://github.com/Lile-stu || fab fa-github
+  E-Mail: mailto:lile.stu@qq.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -172,12 +172,18 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  知乎: https://www.zhihu.com/people/millen-9
+  Bilibili: https://space.bilibili.com/439306062
+  
+
 
 social_icons:
   enable: true
   icons_only: false
   transition: false
-
+  GitHub: GitHub
+  Bilibili: bilibili
+  知乎: zhihu
 # Blog rolls
 links_settings:
   icon: fa fa-globe
@@ -211,7 +217,7 @@ language_switcher: false
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
-  #since: 2021
+  since: 2025
 
   # Icon between year and copyright info.
   icon:
@@ -275,12 +281,12 @@ tag_icon: false
 # Front-matter variable (nonsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
-  animation: false
+  enable: true
+  animation: true
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/wechatpay.jpg
+  alipay: https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/alipay.jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -379,7 +385,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style:
   # Fold code block
@@ -454,7 +460,7 @@ font:
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
+    family: Noto Sans Simplified Chinese
     size:
 
   # Font settings for headlines (<h1> to <h6>).
@@ -589,7 +595,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
@@ -681,7 +687,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | livere | gitalk | utterances | isso
-  active: valine
+  active: waline
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -913,17 +919,14 @@ vendors:
 css: css
 js: js
 images: images
-# Valine 评论系统
-valine:
-  enable: true
-  appId: w19V2RMeC3gFJ7csw1lObf51-MdYXbMMI
-  appKey: nEowd0wMUvAXJQ0eu3eY6vFR
-  placeholder: 既然来了，不说点什么吗？
-  avatar: mm
-  meta: [nick, mail, link]
-  pageSize: 10
-  lang: zh-cn
-  visitor: true
-  comment_count: true
-  recordIP: false
-  serverURLs: # 如果你是 LeanCloud 国际版，这里留空即可
+
+# 示例：手动添加 Waline 配置块
+# ----------------------------------------------------
+# Waline 评论系统
+# See: https://waline.js.org/
+waline:
+  enable: true  # 启用 Waline
+  serverURL: 'https://comment.lile-stu.xyz' # <<-- 填入你 Vercel 绑定的地址
+  # 其他配置项可以暂时留空或根据 Waline 文档添加
+  # path: page.path
+# ----------------------------------------------------

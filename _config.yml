@@ -5,9 +5,9 @@
 # Site
 title: Lile的博客
 subtitle: ''
-description: '李乐大人啊'
+description: ''
 keywords:
-author: Millenlun
+author: Millen
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -109,3 +109,8 @@ search:
   field: post
   format: html
   limit: 10000
+encrypt:
+  enable: true
+  message: "点击以输入密码"    # 这里就是提示词
+  decryption_error: "密码错误" # 密码输错时的提示
+  button: "确认"                         # 按钮上的文字

@@ -5,7 +5,7 @@
 
 $my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Microsoft YaHei", sans-serif
 
-// 应用到全站标题 (普通模式下生效)
+// 应用到全站标题 (默认)
 .site-title, .post-title, .post-title-link, h1, h2, h3, h4, h5, h6
   font-family: $my-modern-stack !important
   font-weight: 400
@@ -13,20 +13,20 @@ $my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Mi
 
 
 // ==================================================
-// 2. 灵异模式专属样式 (SCP文档风格 / 黑底白字)
+// 2. 灵异模式：黑底白字 (SCP文档风)
 // ==================================================
 .mystery-mode
   background-color #000000 !important
-  color #eeeeee !important 
+  color #eeeeee !important
 
-  // 强制全黑背景
+  // 强制全黑
   .header-inner, .main-inner, .content-wrap, .post-block, .comments, .footer, .main-menu, .sidebar-inner
     background-color #000000 !important
   
-  // 标题：强制改回打印机字体，覆盖掉上面的全局字体
+  // 标题：强制改回打印机字体 (反杀上面的全局字体)
   .post-title, .post-title-link, .site-title, h1, h2, h3, h4, h5, h6
     color #ffffff !important 
-    font-family 'Courier New', monospace !important // ★ 关键：这里反杀全局字体
+    font-family 'Courier New', monospace !important 
     text-shadow none
 
   // 链接和正文
@@ -42,7 +42,7 @@ $my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Mi
 
 
 // ==================================================
-// 3. 灵异 Banner 容器
+// 3. Banner 容器 (修复眼睛巨大的问题)
 // ==================================================
 .paranormal-banner-global
   position relative
@@ -56,24 +56,17 @@ $my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Mi
 
 
 // ==================================================
-// 4. 梦核眼睛图片：常态 (原色、漂浮、模糊)
+// 4. 梦核眼睛：常态 (控制大小、漂浮)
 // ==================================================
 .mystery-eye-icon
   position absolute
   top var(--top)
   left var(--left)
-  // 基准宽度 40px，乘以随机倍率
-  width calc(40px * var(--sz))
+  width calc(40px * var(--sz)) // 限制大小
   height auto
   opacity var(--op)
-  
-  // 梦核感核心：模糊 + 阴影
   filter blur(0.8px) drop-shadow(0 5px 5px rgba(0, 0, 0, 0.5))
-  
-  // 漂浮动画
   animation dream-float var(--dur) ease-in-out infinite alternate var(--delay)
-  
-  // 混合模式
   mix-blend-mode lighten
 
 @keyframes dream-float
@@ -84,20 +77,16 @@ $my-modern-stack = 'Libre Franklin', 'Franklin Gothic Book', 'Noto Sans SC', "Mi
 
 
 // ==================================================
-// 5. 噩梦降临：鼠标悬停交互 (变红、暴走)
+// 5. 鼠标悬停交互 (变红暴走)
 // ==================================================
 .paranormal-banner-global:hover 
   background #050000
-  border-bottom-color #ff0000 // 底部变红线
+  border-bottom-color #ff0000
   
   .mystery-eye-icon
     opacity 1 !important
     mix-blend-mode normal
-    
-    // 强制变红滤镜组合拳
     filter sepia(1) saturate(10) hue-rotate(-50deg) contrast(1.5) drop-shadow(0 0 10px #f00) !important
-    
-    // 切换到剧烈抽搐动画
     animation nightmare-shake 0.2s infinite linear
 
 @keyframes nightmare-shake

@@ -1416,7 +1416,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ff81ba;
+    background: #369941;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3108,7 +3108,7 @@ h6 {
   border-left-color: #fff;
   color: #ccc;
 }
-.paranormal-banner-global {
+.mystery-mode .paranormal-banner-global {
   position: relative;
   width: 100%;
   height: 220px;
@@ -3118,7 +3118,7 @@ h6 {
   margin-bottom: 40px;
   perspective: 1000px;
 }
-.mystery-eye-icon {
+.mystery-mode .mystery-eye-icon {
   position: absolute;
   top: var(--top);
   left: var(--left);
@@ -3129,15 +3129,54 @@ h6 {
   animation: dream-float var(--dur) ease-in-out infinite alternate var(--delay);
   mix-blend-mode: lighten;
 }
-.paranormal-banner-global:hover {
+.mystery-mode .paranormal-banner-global:hover {
   background: #050000;
   border-bottom-color: #f00;
 }
-.paranormal-banner-global:hover .mystery-eye-icon {
+.mystery-mode .paranormal-banner-global:hover .mystery-eye-icon {
   opacity: 1 !important;
   mix-blend-mode: normal;
   filter: sepia(1) saturate(10) hue-rotate(-50deg) contrast(1.5) drop-shadow(0 0 10px #f00) !important;
   animation: nightmare-shake 0.2s infinite linear;
+}
+.mystery-mode #waline {
+  --waline-bgcolor: #000 !important;
+  --waline-bgcolor-light: #0a0a0a !important;
+  --waline-text-color: #ddd !important;
+  --waline-border-color: #333 !important;
+  --waline-theme-color: #fff !important;
+  --waline-active-color: #fff !important;
+}
+.mystery-mode #waline .wl-editor,
+.mystery-mode #waline .wl-input {
+  background: #000 !important;
+  border: 1px solid #444 !important;
+  color: #fff !important;
+  font-family: 'Courier New', monospace !important;
+}
+.mystery-mode #waline .wl-editor:focus,
+.mystery-mode #waline .wl-input:focus {
+  border-color: #fff !important;
+}
+.mystery-mode #waline .wl-btn {
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+}
+.mystery-mode #waline .wl-btn:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+.mystery-mode #waline .wl-card {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #222 !important;
+}
+.mystery-mode #waline .wl-nick,
+.mystery-mode #waline .wl-time,
+.mystery-mode #waline .wl-meta {
+  color: #888 !important;
 }
 @keyframes dream-float {
   0% {

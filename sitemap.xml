@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lile-stu.xyz/book/index.html</loc>
+    
+    <lastmod>2025-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lile-stu.xyz/pictures/index.html</loc>
+    
+    <lastmod>2025-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lile-stu.xyz/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/</loc>
     
     <lastmod>2025-12-08</lastmod>
@@ -76,7 +94,7 @@
 
   <url>
     <loc>https://lile-stu.xyz/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -86,21 +104,21 @@
   
   <url>
     <loc>https://lile-stu.xyz/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lile-stu.xyz/categories/%E7%81%B5%E5%BC%82%E7%8E%B0%E8%B1%A1%E7%A0%94%E7%A9%B6/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lile-stu.xyz/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

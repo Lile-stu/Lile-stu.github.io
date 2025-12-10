@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello world！</title>
+    <url>/2025/12/06/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="该页面用于测试博客新加入的功能"><a href="#该页面用于测试博客新加入的功能" class="headerlink" title="该页面用于测试博客新加入的功能"></a>该页面用于测试博客新加入的功能</h1>]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>“灵异页面测试”</title>
+    <url>/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      <categories>
+        <category>灵异现象研究</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>天哪，再过四天就考四级了</title>
+    <url>/2025/12/09/%E5%A4%A9%E5%93%AA%EF%BC%8C%E5%86%8D%E8%BF%87%E5%9B%9B%E5%A4%A9%E5%B0%B1%E8%80%83%E5%9B%9B%E7%BA%A7%E4%BA%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>距离四六级考试还有四天的时间，但我仅仅做了四套真题，而且错的不少，哎。</p>
+<p>最近过的太颓废了，本来计划12月能背完考研考纲的英文单词的，但我11月初就放弃这个想法，因为这真的很枯燥，而且这个习惯很难形成，我根本没有固定的时间去背这个单词，有时候课上背，有时候睡觉了压线背过，最主要的还是做题，我上上周就完成了四套，但上周沉迷海克斯大乱斗，疯玩了一周，现在是一笔没动…</p>
+<p>听说四级裸考都能过，我真的有这个实力吗？难说！</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>碎碎念</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>指针</title>
+    <url>/2025/12/06/%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      <categories>
+        <category>学习</category>
+        <category>编程</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Password_test</title>
     <url>/2025/12/08/Password-test/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -17,43 +54,6 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello world！</title>
-    <url>/2025/12/06/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="该页面用于测试博客新加入的功能"><a href="#该页面用于测试博客新加入的功能" class="headerlink" title="该页面用于测试博客新加入的功能"></a>该页面用于测试博客新加入的功能</h1>]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>天哪，再过四天就考四级了</title>
-    <url>/2025/12/09/%E5%A4%A9%E5%93%AA%EF%BC%8C%E5%86%8D%E8%BF%87%E5%9B%9B%E5%A4%A9%E5%B0%B1%E8%80%83%E5%9B%9B%E7%BA%A7%E4%BA%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>距离四六级考试还有四天的时间，但我仅仅做了四套真题，而且错的不少，哎。</p>
-<p>最近过的太颓废了，本来计划12月能背完考研考纲的英文单词的，但我11月初就放弃这个想法，因为这真的很枯燥，而且这个习惯很难形成，我根本没有固定的时间去背这个单词，有时候课上背，有时候睡觉了压线背过，最主要的还是做题，我上上周就完成了四套，但上周沉迷海克斯大乱斗，疯玩了一周，现在是一笔没动…</p>
-<p>听说四级裸考都能过，我真的有这个实力吗？难说！</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-        <category>碎碎念</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>“灵异页面测试”</title>
-    <url>/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      <categories>
-        <category>灵异现象研究</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>指针</title>
-    <url>/2025/12/06/%E6%8C%87%E9%92%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      <categories>
-        <category>学习</category>
-        <category>编程</category>
       </categories>
   </entry>
 </search>

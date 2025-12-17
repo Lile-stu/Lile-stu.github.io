@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Password_test</title>
-    <url>/2025/12/08/Password-test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="698d2933315862e7678c5dd1a5f7aee2036d93ce89022cd23cabb8b3a2bcb87c">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5caa0c664d8e7a85bd833fac72ade59ddbf66b4bdec75a2ed1e83f57bcb279b78c8202c7ce8d3eb34051070935a62ccbf9be563b576fcb19a6e4c095e03496f05d0fec5de7a8af18b78d977beffb6874da4670293f572d11dfa81b48ce6cd0448f0a018d399d177f54eb76d77c6c17f9c36f9f255c3de0f225f9e9c6b4f23d83fc3307cf9be8ef0d2bb8d0474ceec45d7300894f4b8f11650b44ad991ba7d432283fbefe6029b9e47d856da566b3c9916f</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">点击以输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Markdown语法</title>
     <url>/2025/12/14/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><blockquote>
@@ -61,10 +42,31 @@
 <li>脚注</li>
 </ul>
 <p><code>代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void) &#123;</span><br><span class="line">    printf(&quot;Hello, World!\n&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void) &#123;</span><br><span class="line">    printf(&quot;Hello, World!\n&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>学习</category>
         <category>编程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Password_test</title>
+    <url>/2025/12/08/Password-test/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="698d2933315862e7678c5dd1a5f7aee2036d93ce89022cd23cabb8b3a2bcb87c">4630436162ade97ba2718b7d0c4b3b630ef8b034c35893a7afa4c54a5752d90eba191a593f89497fdfca691efaf72d5caa0c664d8e7a85bd833fac72ade59ddbf66b4bdec75a2ed1e83f57bcb279b78c8202c7ce8d3eb34051070935a62ccbf9be563b576fcb19a6e4c095e03496f05d0fec5de7a8af18b78d977beffb6874da4670293f572d11dfa81b48ce6cd0448f0a018d399d177f54eb76d77c6c17f9c36f9f255c3de0f225f9e9c6b4f23d83fc3307cf9be8ef0d2bb8d0474ceec45d7300894f4b8f11650b44ad991ba7d432283fbefe6029b9e47d856da566b3c9916f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">点击以输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>测试</category>
       </categories>
   </entry>
   <entry>
@@ -96,9 +98,51 @@
       </categories>
   </entry>
   <entry>
-    <title>指针</title>
-    <url>/2025/12/06/%E6%8C%87%E9%92%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <title>数组和指针 笔记</title>
+    <url>/2025/12/17/%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><p>在使用数组前，数组，元素必须初始化，</p>
+<p>数组下标-数组元素的编号是从0开始的声明数组的时候最好用符号常量来表示数组大小</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> name[number] = &#123;num1,num2,...&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>初始化的元素项数要不能多于元素个数，可以省略方括号数字，让编译器自动匹配数组大小和项数</p>
+<p><strong>-C99指定初始化器</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> name[number] = &#123;&#123;numberX&#125; = numx &#125;; <span class="comment">//C99!</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>赋值</strong>：</p>
+<p>数组用数组下标给数组元素赋值</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">name[] = numxxx</span><br></pre></td></tr></table></figure>
+
+<p>不能把数组整个赋值给另一个数组，不能花括号赋值，不能拿数组下标给另一个数组元素赋值（数组下标越界）</p>
+<p><strong>数组边界</strong></p>
+<p>要防止数组下标超出边界，编译器不会检查数组边界。</p>
+<p><strong>多维数组</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">数据类型 name[number1][number2];</span><br></pre></td></tr></table></figure>
+
+<p>内含number1个数组元素的数组，每个元素是含number2个元素的数组</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/Snipaste_2025-12-17_20-19-58.png"></p>
+<p>初始化多维数组</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> name [number1][number2] =</span><br><span class="line">&#123;</span><br><span class="line">	&#123;num1,num2,...&#125;,</span><br><span class="line">	&#123;num1,num2,...&#125;,</span><br><span class="line">	&#123;num1,num2,...&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="指针和数组"><a href="#指针和数组" class="headerlink" title="指针和数组"></a>指针和数组</h1><p>指针 以符号形式使用地址</p>
+<p>指针的值是他指向的对象的地址，较大的对象的地址通常是第一个值</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*ptr//可以获取指针所指向对象的值</span><br></pre></td></tr></table></figure>
+
+<p>指针+1 ，指针的值递增它所指向类型的大小（以字节为单位）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Lile-stu/pictures-store/Snipaste_2025-12-17_20-54-21.png"></p>
+<p>C的灵活性：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">*name + <span class="number">2</span> == &amp;name[<span class="number">2</span>] <span class="comment">//地址相同</span></span><br><span class="line">*(name + <span class="number">2</span>) == name[<span class="number">2</span>] <span class="comment">//值相同</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+]]></content>
       <categories>
         <category>学习</category>
         <category>编程</category>

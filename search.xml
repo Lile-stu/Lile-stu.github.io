@@ -51,15 +51,11 @@
       </categories>
   </entry>
   <entry>
-    <title>天哪，再过四天就考四级了</title>
-    <url>/2025/12/09/%E5%A4%A9%E5%93%AA%EF%BC%8C%E5%86%8D%E8%BF%87%E5%9B%9B%E5%A4%A9%E5%B0%B1%E8%80%83%E5%9B%9B%E7%BA%A7%E4%BA%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>距离四六级考试还有四天的时间，但我仅仅做了四套真题，而且错的不少，哎。</p>
-<p>最近过的太颓废了，本来计划12月能背完考研考纲的英文单词的，但我11月初就放弃这个想法，因为这真的很枯燥，而且这个习惯很难形成，我根本没有固定的时间去背这个单词，有时候课上背，有时候睡觉了压线背过，最主要的还是做题，我上上周就完成了四套，但上周沉迷海克斯大乱斗，疯玩了一周，现在是一笔没动…</p>
-<p>听说四级裸考都能过，我真的有这个实力吗？难说！</p>
-]]></content>
+    <title>“灵异页面测试”</title>
+    <url>/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       <categories>
-        <category>学习</category>
-        <category>碎碎念</category>
+        <category>灵异现象研究</category>
       </categories>
   </entry>
   <entry>
@@ -86,7 +82,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">数据类型 name[number1][number2];</span><br></pre></td></tr></table></figure>
 
 <p>内含number1个数组元素的数组，每个元素是含number2个元素的数组</p>
-<p><img src="https://img.lile-stu.xyz/gh/Lile-stu/pictures-store/Snipaste_2025-12-17_20-19-58.png"></p>
+<p><img src="https://img.lile-stu.xyz/Lile-stu/pictures-store/Snipaste_2025-12-17_20-19-58.png"></p>
 <p>初始化多维数组</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> name [number1][number2] =</span><br><span class="line">&#123;</span><br><span class="line">	&#123;num1,num2,...&#125;,</span><br><span class="line">	&#123;num1,num2,...&#125;,</span><br><span class="line">	&#123;num1,num2,...&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
@@ -97,7 +93,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*ptr//可以获取指针所指向对象的值</span><br></pre></td></tr></table></figure>
 
 <p>指针+1 ，指针的值递增它所指向类型的大小（以字节为单位）</p>
-<p><img src="https://img.lile-stu.xyz/gh/Lile-stu/pictures-store/Snipaste_2025-12-17_20-54-21.png"></p>
+<p><img src="https://img.lile-stu.xyz/Lile-stu/pictures-store/Snipaste_2025-12-17_20-54-21.png"></p>
 <p>C的灵活性：</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">*name + <span class="number">2</span> == &amp;name[<span class="number">2</span>] <span class="comment">//地址相同</span></span><br><span class="line">*(name + <span class="number">2</span>) == name[<span class="number">2</span>] <span class="comment">//值相同</span></span><br></pre></td></tr></table></figure>
 
@@ -115,11 +111,15 @@
       </categories>
   </entry>
   <entry>
-    <title>“灵异页面测试”</title>
-    <url>/2025/12/08/%E2%80%9C%E7%81%B5%E5%BC%82%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95%E2%80%9D/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <title>天哪，再过四天就考四级了</title>
+    <url>/2025/12/09/%E5%A4%A9%E5%93%AA%EF%BC%8C%E5%86%8D%E8%BF%87%E5%9B%9B%E5%A4%A9%E5%B0%B1%E8%80%83%E5%9B%9B%E7%BA%A7%E4%BA%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>距离四六级考试还有四天的时间，但我仅仅做了四套真题，而且错的不少，哎。</p>
+<p>最近过的太颓废了，本来计划12月能背完考研考纲的英文单词的，但我11月初就放弃这个想法，因为这真的很枯燥，而且这个习惯很难形成，我根本没有固定的时间去背这个单词，有时候课上背，有时候睡觉了压线背过，最主要的还是做题，我上上周就完成了四套，但上周沉迷海克斯大乱斗，疯玩了一周，现在是一笔没动…</p>
+<p>听说四级裸考都能过，我真的有这个实力吗？难说！</p>
+]]></content>
       <categories>
-        <category>灵异现象研究</category>
+        <category>学习</category>
+        <category>碎碎念</category>
       </categories>
   </entry>
   <entry>
